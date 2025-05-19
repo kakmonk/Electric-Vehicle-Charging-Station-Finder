@@ -1,0 +1,1 @@
+C:\Users\kakin\source\repos\EVChargingStation\EVChargingStation\obj\Debug\evchargingstation.esproj.CoreCompileInputs.cache

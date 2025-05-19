@@ -1,0 +1,37 @@
+.vehicle-selector {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.vehicle-dropdown {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #646cff;
+    background-color: #1a1a1a;
+    color: white;
+    font-size: 1rem;
+
+}
+
+.charge-preference {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.charge-preference input[type="range"] {
+    width: 100%;
+    accent-color: #646cff;
+
+}
+
+.charge-preference span {
+    text-align: center;
+    font-weight: bold;
+    color: #646cff;
+}

@@ -1,0 +1,35 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.card input[type="text"] {
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    color: #333;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card input[type="text"]:focus {
+    outline: none;
+    border-color: #646cff;
+    box-shadow: 0 0 5px rgba(100, 108, 255, 0.3);
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
